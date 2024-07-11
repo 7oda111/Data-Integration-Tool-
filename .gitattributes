@@ -1,0 +1,17 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly set line endings for specific file types
+*.sh text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+*.ipynb text eol=lf
+*.drawio text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
+*.doc binary
+*.docx binary
